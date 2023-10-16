@@ -1,0 +1,13 @@
+
+spring:
+  redis:
+    host: "192.168.74.128 - your own ip"
+    port: 6379
+    password: "Your own password"
+    database: 1
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 100ms
